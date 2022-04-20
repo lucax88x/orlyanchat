@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrlyanChat.Web.Api", "OrlyanChat.Web.Api\OrlyanChat.Web.Api.csproj", "{DF233395-AD97-4FB1-81B0-832453BCA82A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF233395-AD97-4FB1-81B0-832453BCA82A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF233395-AD97-4FB1-81B0-832453BCA82A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF233395-AD97-4FB1-81B0-832453BCA82A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF233395-AD97-4FB1-81B0-832453BCA82A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

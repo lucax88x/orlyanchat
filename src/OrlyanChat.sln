@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrlyanChat.Web.Api", "OrlyanChat.Web.Api\OrlyanChat.Web.Api.csproj", "{DF233395-AD97-4FB1-81B0-832453BCA82A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrlyanChat.Grains", "OrlyanChat.Grains\OrlyanChat.Grains.csproj", "{33D4795D-B0DC-428B-9BD1-8FC83B5BD998}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrlyanChat.Host", "OrlyanChat.Host\OrlyanChat.Host.csproj", "{9B5DACE3-7646-4783-B59A-0345C5A959A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{DF233395-AD97-4FB1-81B0-832453BCA82A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF233395-AD97-4FB1-81B0-832453BCA82A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF233395-AD97-4FB1-81B0-832453BCA82A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33D4795D-B0DC-428B-9BD1-8FC83B5BD998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33D4795D-B0DC-428B-9BD1-8FC83B5BD998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33D4795D-B0DC-428B-9BD1-8FC83B5BD998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33D4795D-B0DC-428B-9BD1-8FC83B5BD998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B5DACE3-7646-4783-B59A-0345C5A959A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B5DACE3-7646-4783-B59A-0345C5A959A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B5DACE3-7646-4783-B59A-0345C5A959A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B5DACE3-7646-4783-B59A-0345C5A959A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

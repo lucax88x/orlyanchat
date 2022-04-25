@@ -1,7 +1,6 @@
 using System;
 using System.Threading.Tasks;
 using FluentAssertions;
-using OrlyanChat.Grains;
 using OrlyanChat.Grains.Interfaces;
 using OrlyanChat.Model;
 using Xunit;
@@ -21,7 +20,7 @@ public sealed class UserGrainTest : IClassFixture<OrleansFixture>
     public async Task User_status_is_online_when_logging_in()
     {
         var someUsername = "test-user";
-        
+
         var userGrain = fixture.Factory.GetGrain<IUserGrain>(someUsername);
 
         await userGrain.Login();

@@ -3,5 +3,5 @@
 public enum UserStatus
 {
     Online = 1,
-    Offline = 2,
+    Offline = 2
 }

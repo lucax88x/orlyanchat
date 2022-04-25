@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Orleans Host and Client" type="CompoundRunConfigurationType">
+    <toRun name="OrlyanChat.Web.Api" type="LaunchSettings" />
+    <toRun name="OrlyanChat.Host" type="DotNetProject" />
+    <method v="2" />
+  </configuration>
+</component>

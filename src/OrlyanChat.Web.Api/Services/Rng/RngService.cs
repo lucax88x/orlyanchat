@@ -1,5 +1,6 @@
 using Orleans;
 using OrlyanChat.Grains;
+using OrlyanChat.Grains.Interfaces;
 
 namespace OrlyanChat.Web.Api.Services.Rng;
 

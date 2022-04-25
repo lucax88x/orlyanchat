@@ -1,12 +1,8 @@
 ﻿using Orleans;
 using Orleans.Concurrency;
+using OrlyanChat.Grains.Interfaces;
 
 namespace OrlyanChat.Grains;
-
-public interface IRngGrain : IGrainWithGuidKey
-{
-    Task<int> GetSomeNumber();
-}
 
 [StatelessWorker]
 public sealed class RngGrain : Grain, IRngGrain

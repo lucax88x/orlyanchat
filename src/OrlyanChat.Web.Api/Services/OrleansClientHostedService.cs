@@ -1,6 +1,7 @@
 using Orleans;
 using Orleans.Configuration;
 using Orleans.Runtime;
+using Orleans.Runtime.Messaging;
 using OrlyanChat.Grains;
 
 namespace OrlyanChat.Web.Api.Services;
@@ -33,12 +34,12 @@ public sealed class OrleansClientHostedService : IHostedService
 
         async Task<bool> ConnectRetryLogic(Exception whatWentWrong)
         {
-            if (connectionAttempts == MAX_CONNECTION_ATTEMPTS)
+            if (connectionAttempts >= MAX_CONNECTION_ATTEMPTS)
             {
                 return false;
             }
 
-            if (whatWentWrong is SiloUnavailableException)
+            if (whatWentWrong is SiloUnavailableException or ConnectionFailedException)
             {
                 connectionAttempts = connectionAttempts + 1;
 

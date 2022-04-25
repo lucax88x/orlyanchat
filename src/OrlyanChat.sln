@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrlyanChat.Grains", "Orlyan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrlyanChat.Host", "OrlyanChat.Host\OrlyanChat.Host.csproj", "{9B5DACE3-7646-4783-B59A-0345C5A959A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrlyanChat.Tests", "OrlyanChat.Tests\OrlyanChat.Tests.csproj", "{2159E505-3630-4D29-A962-EEA92A402A01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrlyanChat.Model", "OrlyanChat.Model\OrlyanChat.Model.csproj", "{A82E68F0-116C-40A9-9B73-EAAB55DF2374}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{9B5DACE3-7646-4783-B59A-0345C5A959A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B5DACE3-7646-4783-B59A-0345C5A959A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B5DACE3-7646-4783-B59A-0345C5A959A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2159E505-3630-4D29-A962-EEA92A402A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2159E505-3630-4D29-A962-EEA92A402A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2159E505-3630-4D29-A962-EEA92A402A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2159E505-3630-4D29-A962-EEA92A402A01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A82E68F0-116C-40A9-9B73-EAAB55DF2374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A82E68F0-116C-40A9-9B73-EAAB55DF2374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A82E68F0-116C-40A9-9B73-EAAB55DF2374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A82E68F0-116C-40A9-9B73-EAAB55DF2374}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

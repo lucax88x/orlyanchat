@@ -18,7 +18,7 @@ public sealed class OrleansClientHostedService : IHostedService
             throw new ArgumentNullException(nameof(applicationLoggerProvider));
         }
 
-        Client = new ClientBuilder().UseLocalhostClustering(30000).Configure<ClusterOptions>(opts =>
+        Client = new ClientBuilder().UseLocalhostClustering().Configure<ClusterOptions>(opts =>
             {
                 opts.ClusterId = "local-orlyanchat-cluster";
                 opts.ServiceId = "orlyanchat";

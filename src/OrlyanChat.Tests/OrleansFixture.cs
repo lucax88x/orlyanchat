@@ -8,15 +8,15 @@ public sealed class OrleansFixture : IDisposable
 {
     private readonly TestCluster cluster;
 
-    public IGrainFactory Factory => cluster.GrainFactory;
-    
     public OrleansFixture()
     {
         cluster = new TestClusterBuilder().Build();
-        
+
         cluster.Deploy();
     }
-    
+
+    public IGrainFactory Factory => cluster.GrainFactory;
+
     public void Dispose()
     {
         cluster.StopAllSilos();
